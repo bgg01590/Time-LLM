@@ -1,5 +1,5 @@
 model_name=TimeLLM
-train_epochs=5
+train_epochs=1
 learning_rate=0.01
 llama_layers=32
 
@@ -115,3 +115,5 @@ accelerate launch --num_processes $num_process --main_process_port $master_port 
 #   --llm_layers $llama_layers \
 #   --train_epochs $train_epochs \
 #   --model_comment $comment
+
+
