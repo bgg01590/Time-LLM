@@ -1,5 +1,5 @@
 model_name=TimeLLM
-train_epochs=10
+train_epochs=5
 learning_rate=0.01
 llama_layers=32
 
