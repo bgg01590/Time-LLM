@@ -16,9 +16,9 @@ class Dataset_ETT_hour(Dataset):
                  target='OT', scale=True, timeenc=0, freq='h', percent=100,
                  seasonal_patterns=None):
         if size == None:
-            self.seq_len = 24 * 4 * 4
-            self.label_len = 24 * 4
-            self.pred_len = 24 * 4
+            self.seq_len = 24 * 4
+            self.label_len = 24 
+            self.pred_len = 24
         else:
             self.seq_len = size[0]
             self.label_len = size[1]

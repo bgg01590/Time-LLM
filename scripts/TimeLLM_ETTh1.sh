@@ -20,9 +20,6 @@ accelerate launch --num_processes $num_process --main_process_port $master_port 
   --model $model_name \
   --data ETTh1 \
   --features M \
-  --seq_len 512 \
-  --label_len 48 \
-  --pred_len 96 \
   --factor 3 \
   --enc_in 7 \
   --dec_in 7 \
