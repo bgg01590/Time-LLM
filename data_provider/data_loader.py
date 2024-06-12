@@ -106,7 +106,7 @@ class Dataset_ETT_hour(Dataset):
         print(self.seq_len)
         print(self.pred_len + 1)
         print(self.enc_in)
-        print("result : ="  (len(self.data_x) - self.seq_len - self.pred_len + 1) * self.enc_in)
+        print("result : =" ,(len(self.data_x) - self.seq_len - self.pred_len + 1) * self.enc_in)
         return (len(self.data_x) - self.seq_len - self.pred_len + 1) * self.enc_in
 
     def inverse_transform(self, data):
